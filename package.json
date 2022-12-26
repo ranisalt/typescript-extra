@@ -1,0 +1,24 @@
+{
+  "name": "typescript-extra",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "types": "global.d.ts",
+  "scripts": {
+    "coverage": "tscov -d -m 100",
+    "format": "prettier -w \"**/*.{json,ts}\"",
+    "test": "tsd -f \"*.test-d.ts\""
+  },
+  "devDependencies": {
+    "@liftr/tscov": "^2.0.0",
+    "prettier": "^2.8.1",
+    "tsd": "^0.25.0",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "files": [
+    "global.d.ts"
+  ]
+}
